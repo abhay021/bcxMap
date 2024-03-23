@@ -1,0 +1,124 @@
+[
+	{
+		"id": "3472312393923",
+		"name": "Sample Stack 1",
+		"data": [
+			{
+				"quarter": "Q2-2022",
+				"ai": 385,
+				"final": 30,
+				"consumption": 608
+			},
+			{
+				"quarter": "Q3-2022",
+				"ai": 839,
+				"final": 562,
+				"consumption": 502
+			},
+			{
+				"quarter": "Q4-2022",
+				"ai": 678,
+				"final": 549,
+				"consumption": 960
+			},
+			{
+				"quarter": "Q1-2023",
+				"ai": 579,
+				"final": 65,
+				"consumption": 963
+			},
+			{
+				"quarter": "Q2-2023",
+				"ai": 773,
+				"final": 199,
+				"consumption": 212
+			},
+			{
+				"quarter": "Q3-2023",
+				"ai": 980,
+				"final": 941,
+				"consumption": 560
+			},
+			{
+				"quarter": "Q4-2023",
+				"ai": 279,
+				"final": 304,
+				"consumption": 87
+			},
+			{
+				"quarter": "Q1-2024",
+				"ai": 884,
+				"final": 49,
+				"consumption": 486
+			},
+			{
+				"quarter": "Q2-2024",
+				"ai": 663,
+				"final": 798,
+				"consumption": 302
+			},
+			{ "quarter": "Q3-2024", "aiForecast": 39, "finalForecast": 208, "consumptionForecast": 817 },
+			{
+				"quarter": "Q4-2024",
+				"aiForecast": 209,
+				"finalForecast": 146,
+				"consumptionForecast": 643
+			},
+			{
+				"quarter": "Q1-2025",
+				"aiForecast": 69,
+				"finalForecast": 59,
+				"consumptionForecast": 359
+			},
+			{
+				"quarter": "Q2-2025",
+				"aiForecast": 843,
+				"finalForecast": 881,
+				"consumptionForecast": 304
+			},
+			{
+				"quarter": "Q3-2025",
+				"aiForecast": 344,
+				"finalForecast": 588,
+				"consumptionForecast": 302
+			},
+			{ "quarter": "Q4-2025", "aiForecast": 407, "finalForecast": 766, "consumptionForecast": 601 },
+			{
+				"quarter": "Q1-2026",
+				"aiForecast": 233,
+				"finalForecast": 465,
+				"consumptionForecast": 746
+			},
+			{
+				"quarter": "Q2-2026",
+				"aiForecast": 725,
+				"finalForecast": 808,
+				"consumptionForecast": 228
+			}
+		]
+	},
+	{
+		"id": "2343423442342",
+		"name": "Sample Stack 2"
+	},
+	{
+		"id": "4534534553534",
+		"name": "Sample Stack 3"
+	},
+	{
+		"id": "5674464646456",
+		"name": "Sample Stack 4"
+	},
+	{
+		"id": "2355345353453",
+		"name": "Sample Stack 5"
+	},
+	{
+		"id": "45645664546687",
+		"name": "Sample Stack 6"
+	},
+	{
+		"id": "87998778977894",
+		"name": "Sample Stack 7"
+	}
+]
