@@ -8,7 +8,6 @@ import {
 	Tooltip,
 	XAxis,
 	YAxis,
-	ReferenceLine,
 } from "recharts";
 import { Switch } from "./ui/switch";
 
@@ -58,21 +57,9 @@ const DetailChart = ({ selectedData }: any) => {
 			</div>
 		);
 	};
-	// useEffect(() => {
-	// 	if (window !== undefined) {
-	// 		const xAxisTicks = document.querySelectorAll(".recharts-x-axis .recharts-cartesian-axis-tick");
-
-	// 		const coords = Array.from(xAxisTicks).map(tick => {
-	// 			const rect = tick.getBoundingClientRect();
-	// 			return rect.x + rect.width / 2; // Midpoint of the tick
-	// 		});
-	// 		console.log("coords", coords);
-	// 	}
-	// }, [selectedData]);
 
 	const customizeTick = (props: any) => {
 		const { x, y, stroke, payload } = props;
-		console.log("xfdxf", x, y, payload);
 		const val = payload.value.split("-");
 		return (
 			<g transform={`translate(${x},${y})`}>

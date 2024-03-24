@@ -60,7 +60,7 @@ const Sidebar = ({
 								</button>
 								<div className="flex gap-2 ml-3">
 									{badgeData.map((item, ind) => (
-										<Badge className={`${ind === 2 ? "bg-cyan-600" : "bg-green-800"}`} />
+										<Badge key={ind} className={`${ind === 2 ? "bg-cyan-600" : "bg-green-800"}`} />
 									))}
 								</div>
 								<h2 className="ml-3">Sample Stack</h2>
