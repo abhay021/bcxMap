@@ -11,8 +11,8 @@ type cityType = {
 	city: string;
 	foreCastUp: string;
 	foreCastDown: string;
-	data: { name: string; uv: number; pv: number }[];
-	data1: { name: string; uv: number; pv: number }[];
+	data: { name: string; final: number; ai: number }[];
+	data1: { name: string; final: number; ai: number }[];
 	id: number
 };
 
@@ -46,8 +46,9 @@ const CityWidgets = ({ cities }: { cities: cityType[] }) => {
 				{cities.map(item => {
 					return (
 						<Card
+							key={item.id}
 							onClick={() => router.push(`dashboardDetail/${item.id}`)}
-							className="backdrop-blur-sm bg-transparent w-72 h-56 mb-2 cursor-pointer border-t-blue-700 border-b-teal-500">
+							className="backdrop-blur-sm bg-transparent w-56 h-56 mb-2 cursor-pointer border-t-blue-700 border-b-teal-500">
 							<CardHeader>
 								<CardTitle className="text-white">{item.city}</CardTitle>
 							</CardHeader>
@@ -56,11 +57,11 @@ const CityWidgets = ({ cities }: { cities: cityType[] }) => {
 									<h6 className="text-white">Forecast</h6>
 									<div className="flex h-10 gap-2 justify-center">
 										<h1 className="text-white">{item.foreCastUp}</h1>
-										<ResponsiveContainer width="60%" height="90%" className="-mt-1">
+										<ResponsiveContainer width="60%" height="90%">
 											<LineChart width={50} height={25} data={item.data}>
 												<Tooltip content={<CustomTooltip />} />
-												<Line type="monotone" dataKey="pv" strokeWidth={2} />
-												<Line type="monotone" dataKey="uv" strokeDasharray="3 4 5 2" />
+												<Line type="monotone" dataKey="ai" strokeWidth={2} />
+												<Line type="monotone" dataKey="final" strokeDasharray="3 4 5 2" />
 											</LineChart>
 										</ResponsiveContainer>
 										<ArrowUp color="green" />
@@ -73,8 +74,8 @@ const CityWidgets = ({ cities }: { cities: cityType[] }) => {
 										<ResponsiveContainer width="60%" height="90%" className="-mt-1">
 											<LineChart width={50} height={25} data={item.data1}>
 												<Tooltip content={<CustomTooltip />} />
-												<Line type="monotone" dataKey="pv" strokeWidth={2} />
-												<Line type="monotone" dataKey="uv" strokeDasharray="3 4 5 2" />
+												<Line type="monotone" dataKey="ai" strokeWidth={2} />
+												<Line type="monotone" dataKey="final" strokeDasharray="3 4 5 2" />
 											</LineChart>
 										</ResponsiveContainer>
 										<ArrowDown color="red" />

@@ -64,6 +64,9 @@ const config = {
 				md: "calc(var(--radius) - 2px)",
 				sm: "calc(var(--radius) - 4px)",
 			},
+			fontSize: {
+				"2xs": "0.4rem"
+			},
 			keyframes: {
 				"accordion-down": {
 					from: { height: "0" },
@@ -79,7 +82,7 @@ const config = {
 				"accordion-up": "accordion-up 0.2s ease-out",
 			},
 			gridTemplateColumns: {
-				sidebar: "350px auto",
+				sidebar: "320px auto",
 				"sidebar-collapsed": "64px auto",
 			},
 		},

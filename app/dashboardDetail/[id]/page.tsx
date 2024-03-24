@@ -18,7 +18,7 @@ const page = () => {
 		<div
 			className={classNames({
 				// 👇 use grid layout
-				"grid min-h-screen": true,
+				"grid h-screen w-screen": true,
 				// 👇 toggle the width of the sidebar depending on the state
 				"grid-cols-sidebar": !collapsed,
 				"grid-cols-sidebar-collapsed": collapsed,
@@ -32,7 +32,7 @@ const page = () => {
 				selectedData={selectedData}
 				setSelectedData={setSelectedData}
 			/>
-			<div className="ml-2">
+			<div className="h-screen w-screen lg:w-full overflow-hidden overflow-x-auto">
 				<Details selectedData={selectedData} />
 			</div>
 		</div>

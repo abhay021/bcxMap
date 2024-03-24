@@ -34,6 +34,7 @@ export default function MapComponent() {
 	return (
 		<div className="w-full h-full">
 			<ReactMapGL
+				attributionControl={false}
 				{...viewport}
 				// initialViewState={viewport}
 				style={{

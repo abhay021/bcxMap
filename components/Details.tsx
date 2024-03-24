@@ -9,6 +9,7 @@ import {
 	DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import DetailChart from "./DetailChart";
+import DetailTable from "./DetailTable";
 
 type DetailProps = {
 	selectedData: { id: string; name: string };
@@ -16,18 +17,18 @@ type DetailProps = {
 
 const Details = ({ selectedData }: DetailProps) => {
 	return (
-		<div>
-			<div className="flex mt-16 gap-6 border-b-4 border-b-darkbackground pb-5">
-				<div className="flex gap-3 ml-12 pr-36">
-					<TriangleAlert color="yellow" />
+		<div className="h-full w-screen lg:w-full">
+			<div className="flex mt-5 w-screen lg:w-full gap-6 border-b-4 border-b-darkbackground pb-2">
+				<div className="flex gap-3 ml-12 pr-16 text-sm">
+					<TriangleAlert color="yellow" size={15} />
 					{selectedData.name}
 				</div>
-				<div className="border border-fadedBackground"></div>
-				<div className="px-4">Stack Id: {selectedData.id}</div>
+				<div className="border border-fadedBackground -mt-3"></div>
+				<div className="px-4 text-sm">Stack Id: {selectedData.id}</div>
 				<div className="pr-8">
 					<SquareMenu className="-mt-1 text-cyan-400" size={16} />
 				</div>
-				<div className="flex gap-20 -mt-8 p-2 bg-fadedBackground rounded-lg pr-20">
+				<div className="flex gap-20 -mt-4 p-1 bg-fadedBackground rounded-lg pr-20">
 					<div>
 						<p className="text-sm text-slate-600">FORECAST</p>
 						<p>89%</p>
@@ -41,17 +42,19 @@ const Details = ({ selectedData }: DetailProps) => {
 					<Flag size={18} />
 				</div>
 			</div>
-			<div className="ml-12 my-5 flex gap-5">
-				<File />
-				<p>SPECIAL REQUIREMENTS</p>
+			<div className="ml-12 my-3 flex gap-5">
+				<File size={18} />
+				<p className="text-sm">SPECIAL REQUIREMENTS</p>
 				<div className="flex items-center space-x-2">
-					<Switch id="include" className="data-[state=unchecked]:bg-white" />
-					<Label htmlFor="include">INCLUDE</Label>
+					<Switch id="include" className="data-[state=unchecked]:bg-white text-sm" />
+					<Label htmlFor="include" className="text-sm">
+						INCLUDE
+					</Label>
 				</div>
 				<div className="border border-fadedBackground"></div>
-				<ChevronDown />
+				<ChevronDown size={15} />
 			</div>
-			<div className="bg-darkbackground h-[600px]">
+			<div className="bg-darkbackground h-[70%]">
 				<div className="p-4 ml-12 flex gap-6">
 					<p className="text-sm">Forecast Horizon</p>
 					<DropdownMenu>
@@ -69,9 +72,12 @@ const Details = ({ selectedData }: DetailProps) => {
 						</Label>
 					</div>
 				</div>
-                <div className="p-4 w-full h-full">
-				    <DetailChart selectedData={selectedData} />
-                </div>
+				<div className="p-4 w-full h-full">
+					<DetailChart selectedData={selectedData} />
+				</div>
+			</div>
+			<div className="h-[30%]">
+				<DetailTable selectedData={selectedData} />
 			</div>
 		</div>
 	);

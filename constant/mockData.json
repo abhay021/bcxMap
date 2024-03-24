@@ -1,240 +1,240 @@
 [
 	{
-		"city": "Mukachevo",
+		"city": "Delhi",
 		"foreCastUp": "23M",
 		"foreCastDown": "22%",
 		"data": [
 			{
 				"name": "Page A",
-				"uv": 1221,
-				"pv": 1221
+				"final": 1221,
+				"ai": 1221
 			},
 			{
 				"name": "Page B",
-				"uv": 2323,
-				"pv": 1398
+				"final": 2323,
+				"ai": 1398
 			},
 			{
 				"name": "Page C",
-				"uv": 1221,
-				"pv": 2336
+				"final": 1221,
+				"ai": 2336
 			}
 		],
 		"data1": [
 			{
 				"name": "Page A",
-				"uv": 1212,
-				"pv": 1212
+				"final": 1212,
+				"ai": 1212
 			},
 			{
 				"name": "Page B",
-				"uv": 3000,
-				"pv": 1398
+				"final": 3000,
+				"ai": 1398
 			},
 			{
 				"name": "Page C",
-				"uv": 2999,
-				"pv": 1000
+				"final": 2999,
+				"ai": 1000
 			}
 		],
 		"id": 0
 	},
 	{
-		"city": "Lipetsk",
+		"city": "Mumbai",
 		"foreCastUp": "56.4T",
 		"foreCastDown": "33%",
 		"data": [
 			{
 				"name": "Page A",
-				"pv": 2400,
-				"uv": 3890
+				"ai": 2400,
+				"final": 3890
 			},
 			{
 				"name": "Page B",
-				"pv": 1398,
-				"uv": 6890
+				"ai": 1398,
+				"final": 6890
 			},
 			{
 				"name": "Page C",
-				"pv": 9800,
-				"uv": 3890
+				"ai": 9800,
+				"final": 3890
 			}
 		],
 		"data1": [
 			{
 				"name": "Page A",
-				"uv": 2199,
-				"pv": 2100
+				"final": 2199,
+				"ai": 2100
 			},
 			{
 				"name": "Page B",
-				"uv": 2012,
-				"pv": 1798
+				"final": 2012,
+				"ai": 1798
 			},
 			{
 				"name": "Page C",
-				"uv": 3224,
-				"pv": 2000
+				"final": 3224,
+				"ai": 2000
 			}
 		],
 		"id": 1
 	},
 	{
-		"city": "Elx",
+		"city": "Bengaluru",
 		"foreCastUp": "21.6M",
 		"foreCastDown": "50%",
 		"data": [
 			{
 				"name": "Page A",
-				"pv": 1234,
-				"uv": 2300
+				"ai": 1234,
+				"final": 2300
 			},
 			{
 				"name": "Page B",
-				"pv": 1000,
-				"uv": 2300
+				"ai": 1000,
+				"final": 2300
 			},
 			{
 				"name": "Page C",
-				"pv": 9800,
-				"uv": 1100
+				"ai": 9800,
+				"final": 1100
 			}
 		],
 		"data1": [
 			{
 				"name": "Page A",
-				"uv": 3343,
-				"pv": 1212
+				"final": 3343,
+				"ai": 1212
 			},
 			{
 				"name": "Page B",
-				"uv": 4343,
-				"pv": 2322
+				"final": 4343,
+				"ai": 2322
 			},
 			{
 				"name": "Page C",
-				"uv": 2788,
-				"pv": 2333
+				"final": 2788,
+				"ai": 2333
 			}
 		],
 		"id": 2
 	},
 	{
-		"city": "Lakki Marwat",
+		"city": "Chennai",
 		"foreCastUp": "67.7M",
 		"foreCastDown": "10%",
 		"data": [
 			{
 				"name": "Page A",
-				"pv": 1222,
-				"uv": 2222
+				"ai": 1222,
+				"final": 2222
 			},
 			{
 				"name": "Page B",
-				"pv": 1111,
-				"uv": 1111
+				"ai": 1111,
+				"final": 1111
 			},
 			{
 				"name": "Page C",
-				"pv": 5665,
-				"uv": 2011
+				"ai": 5665,
+				"final": 2011
 			}
 		],
 		"data1": [
 			{
 				"name": "Page A",
-				"uv": 9000,
-				"pv": 1000
+				"final": 9000,
+				"ai": 1000
 			},
 			{
 				"name": "Page B",
-				"uv": 1000,
-				"pv": 9000
+				"final": 1000,
+				"ai": 9000
 			},
 			{
 				"name": "Page C",
-				"uv": 9000,
-				"pv": 1000
+				"final": 9000,
+				"ai": 1000
 			}
 		],
 		"id": 3
 	},
 	{
-		"city": "Calamar",
+		"city": "Kolkata",
 		"foreCastUp": "34.5T",
 		"foreCastDown": "76%",
 		"data": [
 			{
 				"name": "Page A",
-				"pv": 2000,
-				"uv": 8000
+				"ai": 2000,
+				"final": 8000
 			},
 			{
 				"name": "Page B",
-				"pv": 4000,
-				"uv": 6000
+				"ai": 4000,
+				"final": 6000
 			},
 			{
 				"name": "Page C",
-				"pv": 6000,
-				"uv": 4000
+				"ai": 6000,
+				"final": 4000
 			}
 		],
 		"data1": [
 			{
 				"name": "Page A",
-				"uv": 2011,
-				"pv": 8988
+				"final": 2011,
+				"ai": 8988
 			},
 			{
 				"name": "Page B",
-				"uv": 3999,
-				"pv": 5000
+				"final": 3999,
+				"ai": 5000
 			},
 			{
 				"name": "Page C",
-				"uv": 4000,
-				"pv": 3992
+				"final": 4000,
+				"ai": 3992
 			}
 		],
 		"id": 4
 	},
 	{
-		"city": "Calamar",
+		"city": "Gujarat",
 		"foreCastUp": "34.5T",
 		"foreCastDown": "76%",
 		"data": [
 			{
 				"name": "Page A",
-				"pv": 3788,
-				"uv": 4000
+				"ai": 3788,
+				"final": 4000
 			},
 			{
 				"name": "Page B",
-				"pv": 2089,
-				"uv": 5044
+				"ai": 2089,
+				"final": 5044
 			},
 			{
 				"name": "Page C",
-				"pv": 6000,
-				"uv": 2333
+				"ai": 6000,
+				"final": 2333
 			}
 		],
 		"data1": [
 			{
 				"name": "Page A",
-				"uv": 2000,
-				"pv": 2100
+				"final": 2000,
+				"ai": 2100
 			},
 			{
 				"name": "Page B",
-				"uv": 2000,
-				"pv": 5000
+				"final": 2000,
+				"ai": 5000
 			},
 			{
 				"name": "Page C",
-				"uv": 2000,
-				"pv": 4000
+				"final": 2000,
+				"ai": 4000
 			}
 		],
 		"id": 5
