@@ -7,7 +7,7 @@ import React, { PropsWithChildren, useState } from "react";
 import dashboardMockData from "@/constant/dashboardData.json";
 import Details from "@/components/Details";
 
-const page = () => {
+const Page = () => {
 	const [collapsed, setSidebarCollapsed] = useState<boolean>(false);
 	const [dashboardData, setDashboardData] = useState(dashboardMockData);
 	const [selectedData, setSelectedData] = useState<{ id: string; name: string }>(
@@ -39,4 +39,4 @@ const page = () => {
 	);
 };
 
-export default page;
+export default Page;

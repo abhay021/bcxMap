@@ -43,8 +43,8 @@ const SideBarContent = ({
 						<div className="flex justify-between items-center">
 							<div className="flex gap-2 items-center">
 								<Checkbox />
-								<Button size={"sm"}>F'CAST STAB.</Button>
-								<Button size={"sm"}>F'CAST ACC.</Button>
+								<Button size="sm">{"F'CAST STAB."}</Button>
+								<Button size="sm">{"F'CAST ACC."}</Button>
 							</div>
 							<Mail className="text-cyan-400" />
 						</div>
