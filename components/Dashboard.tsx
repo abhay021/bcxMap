@@ -4,6 +4,7 @@ import dynamic from "next/dynamic";
 import { useState } from "react";
 import CityWidgets from "./CityWidgets";
 import mockData from "@/constant/mockData.json"
+import "@/styles/mapbox.css"
 
 const MapComponent = dynamic(() => import("./MapComponent"), { ssr: false });
 
