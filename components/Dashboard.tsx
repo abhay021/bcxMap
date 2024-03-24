@@ -5,8 +5,6 @@ import { useState } from "react";
 import CityWidgets from "./CityWidgets";
 import mockData from "@/constant/mockData.json"
 
-// Dynamically import the map component, as it likely relies on browser globals.
-// Replace `MapComponent` with your actual map component.
 const MapComponent = dynamic(() => import("./MapComponent"), { ssr: false });
 
 export default function Dashboard() {

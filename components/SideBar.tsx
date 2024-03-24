@@ -5,7 +5,7 @@ import cn from "classnames";
 import { DoubleArrowLeftIcon, DoubleArrowRightIcon, ArrowLeftIcon } from "@radix-ui/react-icons";
 import { useRouter } from "next/navigation";
 import { Badge } from "./ui/badge";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "./ui/button";
 import { ListFilter } from "lucide-react";
 import SideBarContent from "./SideBarContent";
@@ -39,7 +39,6 @@ const Sidebar = ({
 			<div
 				className={cn({
 					"text-zinc-50 z-20 shadow-2xl border-black border-solid": true,
-					// "w-96": !collapsed,
 				})}>
 				<div
 					className={cn({
@@ -77,8 +76,6 @@ const Sidebar = ({
 												FINAL SIGN-OFF (0)
 											</TabsTrigger>
 										</TabsList>
-										{/* <TabsContent value="account">Make changes to your account here.</TabsContent>
-										<TabsContent value="password">Change your password here.</TabsContent> */}
 									</Tabs>
 								</div>
 							</div>

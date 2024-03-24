@@ -1,4 +1,3 @@
-// components/MapComponent.js
 import { MapPin } from "lucide-react";
 import { useEffect, useState } from "react";
 import ReactMapGL, { Marker, NavigationControl } from "react-map-gl";
@@ -6,13 +5,11 @@ import { Tooltip as ReactTooltip } from "react-tooltip";
 import "react-tooltip/dist/react-tooltip.css";
 import { HoverCard, HoverCardContent, HoverCardTrigger } from "./ui/hover-card";
 import cities from "@/constant/cities.json";
-// import 'mapbox-gl/dist/mapbox-gl.css';
 
 const token =
 	"pk.eyJ1IjoiYWJoYXkwMjEiLCJhIjoiY2x1MTV2eTFmMGltbDJpcHJsbDhuZnEwbiJ9.Dol8h2JeVmfpL99_rsN3SQ";
 
-// Mock data
-
+console.log("process", process.env)
 export default function MapComponent() {
 	const [viewport, setViewport] = useState({
 		latitude: 33.1376,
