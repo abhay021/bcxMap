@@ -17,8 +17,8 @@ type DetailProps = {
 
 const Details = ({ selectedData }: DetailProps) => {
 	return (
-		<div className="h-full w-screen lg:w-full">
-			<div className="flex mt-5 w-screen lg:w-full gap-6 border-b-4 border-b-darkbackground pb-2">
+		<div className="h-full w-[226vw] lg:w-full">
+			<div className="flex mt-5 w-full lg:w-full gap-6 border-b-4 border-b-darkbackground pb-2">
 				<div className="flex gap-3 ml-12 pr-16 text-sm">
 					<TriangleAlert color="yellow" size={15} />
 					{selectedData.name}
