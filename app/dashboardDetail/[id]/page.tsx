@@ -17,12 +17,9 @@ const Page = () => {
 	return (
 		<div
 			className={classNames({
-				// 👇 use grid layout
 				"grid h-screen w-screen": true,
-				// 👇 toggle the width of the sidebar depending on the state
 				"grid-cols-sidebar": !collapsed,
 				"grid-cols-sidebar-collapsed": collapsed,
-				// 👇 transition animation classes
 				"transition-[grid-template-columns] duration-300 ease-in-out": true,
 			})}>
 			<Sidebar
